@@ -1,0 +1,136 @@
+@media (max-width: 992px) {
+    .promo__header {
+        font-size: 36px;
+    }
+
+    .promo__subheader {
+        font-size: 20px;
+    }
+
+    .promo__icons {
+        width: 350px;
+    }
+
+    .promo__icon {
+        width: 90px;
+        font-size: 12px;
+    }
+
+    .promo__link {
+        font-size: 14px;
+    }
+
+    .button_main {
+        width: 270px;
+        height: 45px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .promo__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__logo {
+        width: 200px
+    }
+
+    .header__phone {
+        font-size: 16px;
+    }
+
+    .promo__subheader {
+        font-size: 18px;
+    }
+
+    .header .button {
+        width: 137px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container .title {
+        font-size: 21px;
+    }
+
+    .advantages__item {
+        max-width: 190px
+    }
+
+    .advantages__subtitle {
+        font-size: 16px;
+    }
+
+    .advantages__descr {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 473px) {
+    .container {
+        max-width: 420px;
+    }
+
+    .promo__header {
+        font-size: 24px;
+    }
+
+    .promo__icons {
+        width: 300px;
+    }
+
+    .header__logo {
+        width: 150px
+    }
+
+    .header__official {
+        font-size: 8px;
+
+    }
+
+    .header__official span {
+        font-size: 12px;
+        margin-top: 6px
+    }
+
+    .header__phone {
+        font-size: 12px;
+    }
+
+    .promo__subheader {
+        font-size: 16px;
+    }
+
+    .header .button {
+        width: 110px;
+        height: 18px;
+        font-size: 8px;
+    }
+
+    .advantages__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .button_main {
+        width: 220px;
+        height: 38px;
+        font-size: 13px;
+    }
+}
