@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
 <body>
-    <section class="promo">
+    <section class="promo" id="up">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -73,7 +74,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon">
+                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">
                         Заботимся о здоровье
                     </div>
@@ -450,7 +451,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="rev__wrap">
-                <div class="rev__item">
+                <div class="rev__item animate__animated animate__fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="0.8s">
                     <img src="img/reviews/rev_1.png" alt="" class="rev__img">
                     <div class="rev__text">
                         <div class="rev__title">Ирина Иванченко </div>
@@ -462,7 +463,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="rev__item">
+                <div class="rev__item animate__animated animate__fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="0.8s">
                     <img src="img/reviews/rev_2.png" alt="" class="rev__img">   
                     <div class="rev__text">
                         <div class="rev__title">Иван Сёмочкин</div>
@@ -473,7 +474,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="rev__item">
+                <div class="rev__item animate__animated animate__fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="0.8s">
                     <img src="img/reviews/rev_3.png" alt="" class="rev__img">
                     <div class="rev__text">
                         <div class="rev__title">Юлия Дашкина</div>
@@ -534,12 +535,17 @@
     </div>
 </div>
 
+<a href="#up">
+    <img src="icons/up.svg" alt="up" class="pageup">
+</a>
+
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

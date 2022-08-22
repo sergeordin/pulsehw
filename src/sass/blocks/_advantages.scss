@@ -15,6 +15,16 @@
         max-width: 238px;
     }
 
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.2s ease infinite;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+
     &__subtitle {
         margin-top: 38px;
         color: #0d0d0d;
